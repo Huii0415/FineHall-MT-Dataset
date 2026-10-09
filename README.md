@@ -42,6 +42,11 @@ Source-semantic categories may co-occur; a primary category is also recorded. So
 
 The data are distributed in **JSON Lines (JSONL)** format, with one translation instance per line.
 
+## License
+
+See [DATA_LICENSE.md](DATA_LICENSE.md) for dataset
+licensing, attribution, and usage conditions.
+
 ## Citation
 
 If you use FineHall-MT, please cite the accompanying paper:
