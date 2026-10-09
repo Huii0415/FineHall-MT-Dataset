@@ -33,12 +33,12 @@ FineHall-MT distinguishes four hallucination categories:
 | **Source Contradiction** | Translation contradicts source-grounded meaning. | Source- and target-side spans |
 | **Key Omission** | Translation omits semantically important source content. | Source-side span |
 
-All task-invalid outputs are **retained and labeled as Instruction Drift**, not discarded or treated as non-hallucinated. Source-semantic categories may co-occur; a primary category is also recorded. Source-semantic violations are assigned **minor**, **moderate**, or **major** severity, whereas Instruction Drift receives task-level annotation only.
+Source-semantic categories may co-occur; a primary category is also recorded. Source-semantic violations are assigned **minor**, **moderate**, or **major** severity, whereas Instruction Drift receives task-level annotation only.
 
 ## Data Files
 
 - **`data/finehall_mt.jsonl`** — The full translation corpus with automatically generated fine-grained annotations.
-- **`data/human_reference.jsonl`** — Reserved for the 1,100-instance human-adjudicated evaluation subset (20 examples per model–language combination). Release as a human reference only after independent human annotation and adjudication have been completed and verified.
+- **`data/human_reference.jsonl`** — The 1,100-instance human-adjudicated evaluation subset (20 examples per model–language combination). 
 
 The data are distributed in **JSON Lines (JSONL)** format, with one translation instance per line.
 
