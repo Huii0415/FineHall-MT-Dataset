@@ -33,7 +33,7 @@ FineHall-MT distinguishes four hallucination categories:
 | **Source Contradiction** | Translation contradicts source-grounded meaning. | Source- and target-side spans |
 | **Key Omission** | Translation omits semantically important source content. | Source-side span |
 
-Source-semantic categories may co-occur; a primary category is also recorded. Source-semantic violations are assigned **minor**, **moderate**, or **major** severity, whereas Instruction Drift receives task-level annotation only.
+Source-faithfulness categories may co-occur; a primary category is also recorded. Source-faithfulness violations are assigned **minor**, **moderate**, or **major** severity, whereas Instruction Drift receives task-level annotation only.
 
 ## Data Files
 
